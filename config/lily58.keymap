@@ -41,11 +41,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp F11     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                        &kp F6          &kp F7          &kp F8        &kp F9            &kp F10            &kp F12
-&kp TAB     &trans  &trans  &trans  &trans  &trans                        &kp GRAVE       &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&kp LSHIFT  &trans  &trans  &trans  &trans  &trans                        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp SEMI           &kp SQT
-&kp LCTRL   &trans  &trans  &trans  &trans  &trans  &trans       &trans   &trans          &trans          &kp COMMA     &kp COMMA         &kp PERIOD         &kp SLASH
-                            &trans  &trans  &trans  &kp SPACE    &kp RET  &trans          &trans          &trans
+&kp F11     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                          &kp F6          &kp F7          &kp F8        &kp F9            &kp F10            &kp F12
+&kp TAB     &trans  &trans  &trans  &trans  &trans                          &kp GRAVE       &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&kp LSHIFT  &trans  &trans  &trans  &trans  &trans                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp SEMI           &kp SQT
+&kp LCTRL   &trans  &trans  &trans  &trans  &trans  &kp PG_UP    &kp PG_DN  &trans          &trans          &kp COMMA     &kp COMMA         &kp PERIOD         &kp SLASH
+                            &trans  &trans  &trans  &kp SPACE    &kp RET    &trans          &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
